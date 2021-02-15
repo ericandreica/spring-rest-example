@@ -7,7 +7,7 @@ This is a simple rest api example. Technologies used:
 - JUnit 4
 - Postgres DB
 
-Under resources it's the application.properties where are the postgres db properties.
+Under src/main/resources it's the application.properties where are the postgres db properties.
 mvn clean spring-boot:run - it's used for running the application.
 
 After the application started the api calls can be found at: http://localhost:8080/v3/api-docs/
